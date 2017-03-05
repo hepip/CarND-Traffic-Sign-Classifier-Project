@@ -23,7 +23,7 @@ The goals / steps of this project are the following:
 [image6]: ./writeup_img/yield_image_normalized.png "Normalized Image"
 [image7]: ./writeup_img/lenet.png "Lenet Architecture"
 [image8]: ./writeup_img/NewImages.png "New Images"
-[image9]: ./writeup_img/NewImagesSMP.png "New Images" 
+[image9]: ./writeup_img/NewImagesSMP.PNG "New Images" 
 
 
 ### Rubric Points
