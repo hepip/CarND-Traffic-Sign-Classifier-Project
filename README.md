@@ -153,7 +153,7 @@ To improve the training, i have tried playing with the learning rate and number 
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image7]
+![alt text][image8]
 
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
