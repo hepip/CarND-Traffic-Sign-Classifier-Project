@@ -19,7 +19,7 @@ The goals / steps of this project are the following:
 [image2]: ./writeup_img/test_hist.png "Test Data"
 [image3]: ./writeup_img/Sample_Data.png "Sample Data"
 [image4]: ./writeup_img/ClassesCount.png "Images per class"
-[image5]: ./writeup_img/yield_image.png "Yield"
+[image5]: ./writeup_img/yield_image1.png "Yield"
 [image6]: ./writeup_img/yield_image_normalized.png "Normalized Image"
 [image7]: ./writeup_img/lenet.png "Lenet Architecture"
 [image8]: ./writeup_img/NewImages.png "New Images"
