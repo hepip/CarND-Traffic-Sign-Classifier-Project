@@ -21,7 +21,7 @@ The goals / steps of this project are the following:
 [image4]: ./writeup_img/ClassesCount.png "Images per class"
 [image5]: ./writeup_img/placeholder.png "Traffic Sign 2"
 [image6]: ./writeup_img/yield_image_normalized.png "Normalized Image"
-[image7]: ./writeup_img/placeholder.png "Traffic Sign 4"
+[image7]: ./writeup_img/lenet.png "Lenet Architecture"
 [image8]: ./writeup_img/placeholder.png "Traffic Sign 5"
 
 ### Rubric Points
@@ -134,6 +134,9 @@ If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
 
 I started with the famous [LeNet architecture](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf) 
+
+![alt text][image7]
+
 
 * What were some problems with the initial architecture?
 
