@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 [image3]: ./writeup_img/Sample_Data.png "Sample Data"
 [image4]: ./writeup_img/ClassesCount.png "Images per class"
 [image5]: ./writeup_img/placeholder.png "Traffic Sign 2"
-[image6]: ./writeup_img/placeholder.png "Traffic Sign 3"
+[image6]: ./writeup_img/yield_image_normalized.png "Normalized Image"
 [image7]: ./writeup_img/placeholder.png "Traffic Sign 4"
 [image8]: ./writeup_img/placeholder.png "Traffic Sign 5"
 
