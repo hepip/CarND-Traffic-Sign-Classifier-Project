@@ -19,10 +19,12 @@ The goals / steps of this project are the following:
 [image2]: ./writeup_img/test_hist.png "Test Data"
 [image3]: ./writeup_img/Sample_Data.png "Sample Data"
 [image4]: ./writeup_img/ClassesCount.png "Images per class"
-[image5]: ./writeup_img/placeholder.png "Traffic Sign 2"
+[image5]: ./writeup_img/yield_image.png "Yield"
 [image6]: ./writeup_img/yield_image_normalized.png "Normalized Image"
 [image7]: ./writeup_img/lenet.png "Lenet Architecture"
 [image8]: ./writeup_img/NewImages.png "New Images"
+[image9]: ./writeup_img/NewImagesSMP.png "New Images" 
+
 
 ### Rubric Points
 #### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -50,7 +52,7 @@ signs data set:
 
 #### 2. Include an exploratory visualization of the dataset and identify where the code is in your code file.
 
-The code for this step is contained in the third code cell of the IPython notebook.  
+The code for this step is contained in the third, fourth, fifth and sixth code cell of the IPython notebook.  
 
 Here is an exploratory visualization of the data set. Below are the two histograms for the training and the test data. As seen in the plots, there is a lot of differences in count for images for each of the 43 classes.
 
@@ -86,7 +88,7 @@ The code for splitting the data into training and validation sets is contained i
 
 To cross validate my model, I randomly split the training data into a training set and validation set. I did this by using train_test_split function present in sklearn.model_selection. I shuffled the training data as well.
 
-My final training set had X number of images. My validation set and test set had Y and Z number of images.
+My final training set had 27839 number of images. My validation set and test set had 6960 and 12630 number of images.
 
 Augmenting additional data to classes is also possible by doing things like flipping and translating. 
 
@@ -116,14 +118,14 @@ My final model consisted of the following layers and is based on LeNet Architect
 
 #### 4. Describe how, and identify where in your code, you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-The code for training the model is located in the _______ cell of the ipython notebook. 
+The code for training the model is located in the 11th cell of the ipython notebook. 
 
 I have used Adam Optimizer. The training function uses 50 Epochs for training with a batch size of 128 and learning rate of 0.001.
 
 
 #### 5. Describe the approach taken for finding a solution. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
-The code for calculating the accuracy of the model is located in the ___________ cell of the Ipython notebook.
+The code for calculating the accuracy of the model is located in the 11th  & 12th cell of the Ipython notebook.
 
 My final model results were:
 
@@ -158,17 +160,17 @@ Here are five German traffic signs that I found on the web:
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
-The code for making predictions on my final model is located in the tenth cell of the Ipython notebook.
+The code for making predictions on my final model is located in the 14th and 16th cell of the Ipython notebook.
 
 Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+| Do not enter     		| Do not enter  									| 
+| Yield     			| Yield										|
+| Stop					| Speed Limit (30 km/h)										|
+| No Right	      		| Go Straight or right				 				|
+| No Left		| Speed Limit (70km/h)    							|
 
 
 The model was able to correctly guess _ of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of 92.7%
@@ -177,14 +179,5 @@ The model was able to correctly guess _ of the 5 traffic signs, which gives an a
 
 The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
 
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
 
-| Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
-
-
+![alt text][image9]
